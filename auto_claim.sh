@@ -13,8 +13,8 @@ SSH_KEY_PATH="YOUR_PUBLIC_SSH_KEY_HERE"
 SHAPE_CONFIG_PATH="/tmp/shape.json"
 
 # Hardware Configuration (Default Always Free: 2 OCPU, 12GB RAM)
-OCPU=2
-MEMORY=12
+OCPU=1
+MEMORY=6
 
 # 1. Inject Public SSH Key
 echo "YOUR_PUBLIC_SSH_KEY_HERE" > "$SSH_KEY_PATH"
